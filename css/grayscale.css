@@ -299,23 +299,32 @@ img.logo {
 }
 
 
-span.experience-text {
-    font-size: 11px;
-    font-family: 'Montserrat';
-    text-shadow: 1px 1px 1px #000;
-    cursor: pointer;
-    margin: 135px 18px;
-    display: table;
-    position: absolute;
-    top: 0;
-    opacity:0;
+.experience-icon {
+    color: transparent;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     transition: opacity 500ms;
 }
 
-span.experience-text:hover {
-    opacity: 1;
+span.experience-text {
+    font-size: 11px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 135px 18px;
+    display: table;
+    position: absolute;
+    top: 0;
+
+}
+
+img.logo:hover {
+    opacity: 0.6;
+}
+
+.experience-icon:hover {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    
 }
 
 span.experience-text span {
