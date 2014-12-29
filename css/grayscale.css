@@ -331,7 +331,25 @@ span.experience-text span {
     display: table-cell;
 }
 
+.fast-facts-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background: url(../img/across-black.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
+ul.fast-facts-list {
+    padding-left: 70px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 
 
