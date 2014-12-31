@@ -38,10 +38,10 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 13,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(38.9072, -77.0728), // New York
+        center: new google.maps.LatLng(38.8951, -77.0367), // Washington, DC
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -193,7 +193,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(38.9072, -77.0728);
+    var myLatLng = new google.maps.LatLng(0,0);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
